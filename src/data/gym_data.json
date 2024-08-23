@@ -1,0 +1,99 @@
+{
+    "gym": {
+      "name": "Fitness Health Club",
+      "location": {
+        "address": "Alwer Bypass",
+        "city": "Bhiwadi",
+        "state": "Rajasthan",
+        "zip_code": "301019"
+      },
+      "contact": {
+        "phone": "8690386905",
+        "email": "info@fitnesshealth.com",
+        "website": "www.fitness-health-club.com"
+      },
+      "opening_hours": {
+        "monday_to_friday": "5:00 AM - 10:00 PM",
+        "saturday": "6:00 AM - 8:00 PM",
+        "sunday": "7:00 AM - 6:00 PM"
+      },
+      "membership_plans": [
+        {
+          "type": "Monthly",
+          "price": 1400,
+          "isfeatured":true,
+          "features": [
+            "Access to all gym equipment. ",
+            "One free personal training session. ",
+            "Unlimited group tranning."
+          ]
+        },
+        {
+          "type": "Annual",
+          "price": 12000,
+          "isfeatured":true,
+          "features": [
+            "Access to all gym equipment. ",
+            "Two free personal training sessions. ",
+            "Unlimited group tranning. ",
+            "Free gym merchandise."
+          ]
+        },
+        {
+          "type": "Trial",
+          "price": 0,
+          "isfeatured":true,
+          "features": [
+            "Access to all gym equipment."
+          ]
+        }
+      ],
+      "equipment": [
+        "Treadmills",
+        "Ellipticals",
+        "Stationary Bikes",
+        "Free Weights",
+        "Resistance Machines",
+        "Kettlebells",
+        "Rowing Machines"
+      ],
+      "trainers": [
+        {
+          "name": "John Doe",
+          "specialization": "Strength Training",
+          "experience_years": 10,
+          "certifications": [
+            "Certified Strength and Conditioning Specialist (CSCS)",
+            "Certified Personal Trainer (CPT)"
+          ]
+        },
+        {
+          "name": "Jane Smith",
+          "specialization": "Yoga and Pilates",
+          "experience_years": 8,
+          "certifications": [
+            "Registered Yoga Teacher (RYT)",
+            "Pilates Instructor Certification"
+          ]
+        }
+      ],
+      "classes": [
+        {
+          "name": "Yoga for Beginners",
+          "schedule": "Monday & Wednesday, 6:00 PM - 7:00 PM",
+          "instructor": "Jane Smith"
+        },
+        {
+          "name": "HIIT Training",
+          "schedule": "Tuesday & Thursday, 7:00 AM - 8:00 AM",
+          "instructor": "John Doe"
+        },
+        {
+          "name": "Spinning",
+          "schedule": "Saturday, 9:00 AM - 10:00 AM",
+          "instructor": "Mark Davis"
+        }
+      ]
+    }
+  }
+  
