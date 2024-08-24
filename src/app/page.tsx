@@ -10,7 +10,6 @@ export default function Home() {
       {/* <h1 className="text-2xl text-center">Chai aur Code</h1> */}
       <HeroSection/>
       <FeaturePlans/>
-      {/* <Payment /> */}
       {/* <MusicSchoolTestimonials /> */}
       <FooterSection/>
     </main>
