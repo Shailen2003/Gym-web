@@ -16,22 +16,23 @@ function Navbar({ className }: { className?: string }) {
 
         <MenuItem setActive={setActive} active={active} item="Our Plan">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/Plans">Yearly Plan</HoveredLink>
+            <HoveredLink href="/src/app/plans/page.tsx">Yearly Plan</HoveredLink>
             <HoveredLink href="/Plans">Monthly Plan</HoveredLink>
             <HoveredLink href="/Plans">Weekly Plan</HoveredLink>
             <HoveredLink href="/Plans">Free trial</HoveredLink>
           </div>
         </MenuItem>
 
-        <Link href="/contact">
+        <Link href="/contactUs">
           <MenuItem setActive={setActive} active={active} item="Contact Us" />
         </Link>
 
-        <Link href="..//app/Login.tsx">
+        {/* Fix the login and register links */}
+        <Link href="/login">
           <MenuItem setActive={setActive} active={active} item="Login" />
         </Link>
 
-        <Link href="../app/SignUp.tsx">
+        <Link href="/signUp">
           <MenuItem setActive={setActive} active={active} item="Register" />
         </Link>
       </Menu>

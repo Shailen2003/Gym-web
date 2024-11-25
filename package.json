@@ -11,12 +11,17 @@
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
     "clsx": "^2.1.1",
     "framer-motion": "^11.3.24",
+    "jsonwebtoken": "^9.0.2",
     "mini-svg-data-uri": "^1.4.4",
+    "mongoose": "^8.6.2",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
     "react-razorpay": "^2.0.1",
     "tailwind-merge": "^2.5.0"
   },
