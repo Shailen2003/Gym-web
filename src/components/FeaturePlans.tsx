@@ -37,7 +37,7 @@ function FeaturePlans() {
   const [Razorpay] = useRazorpay()
 
   const payNow = async () => {
-    const response = await fetch('https://server-y80j.onrender.com/order')
+    const response = await fetch('http://localhost:8089/order')
     const data = await response.json()
 
     const options = {
